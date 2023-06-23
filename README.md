@@ -10,4 +10,64 @@
 
 # 🛠️  Tools do projeto
 
-- `Git`: Sistema de controle de versão open source 
+- `Git`: Sistema de controle de versão open source
+- `SDKman`: Sistema de gestão de versões paralelas de vários Kits de Desenvolvimento de Software, incluindo o JAVA
+
+
+## Installation
+
+## ✔️ Instalando o git
+
+Abra o terminal e execute o comando a seguir para verificar se existe alguma versão já instalada
+
+```bash
+git --version
+```
+Se exibir alguma mensagem como demonstrado abaixo, já existe uma versão instalada.
+
+```bash
+Output
+git version 2.25.1
+```
+
+Caso não tenha nenhuma versão instalada iremos prosseguir a instalação.
+
+Utilizei o gerenciador de pacotes padrão APT do Ubuntu. Você pode atualiza-lo aexecutando o seguinte comando:
+
+```bash
+sudo apt update
+```
+
+No próximo passo, será realizado a instalação do git. Execute o comando a seguir para instalar a versão mais básica:
+```bash
+sudo apt install git
+```
+ou, o próximo comando que contém os subpacotes:
+```bash
+sudo apt-get install git-all
+```
+
+Verifique se a instalação foi concluída utilizando o comando `npm install`.
+
+Com o git já instalado, seguimos para as configurações básicas.
+Primeiro, configuramos o usuário:
+```bash
+git config --global user.name "Seu nome"
+```
+
+Em seguida, configuramos o e-mail. 
+
+> Atenção: É importante que seja o mesmo utilizado no github para evitar conflitos.
+```bash
+git config --global user.email seuemail@email.br
+```
+
+Para finalizar, conferimos a lista de configurações
+```
+git config --list
+```
+Instalação concluída com sucesso!
+
+------------
+
+Disponibilizado por Renata Leonel.
