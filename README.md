@@ -1,4 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
 
 <h1 align="center"> Tools for Dev</h1>
 
@@ -16,7 +17,8 @@
 
 ## Installation
 
-## ✔️ Instalando o git
+## ✔️ Instalando o git 
+<img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
 
 Abra o terminal e execute o comando a seguir para verificar se existe alguma versão já instalada
 
@@ -57,7 +59,7 @@ git config --global user.name "Seu nome"
 
 Em seguida, configuramos o e-mail. 
 
-> Atenção: É importante que seja o mesmo utilizado no github para evitar conflitos.
+> **Warning**: É importante que seja o mesmo utilizado no github para evitar conflitos.
 ```bash
 git config --global user.email seuemail@email.br
 ```
@@ -66,7 +68,9 @@ Para finalizar, conferimos a lista de configurações
 ```
 git config --list
 ```
-Instalação concluída com sucesso!
+Instalação concluída com sucesso! 🏆 
+
+## ✔️ Instalando o SDKman 
 
 ------------
 
