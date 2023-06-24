@@ -13,11 +13,10 @@
 
 - `Git`: Sistema de controle de versão open source
 - `SDKman`: Sistema de gestão de versões paralelas de vários Kits de Desenvolvimento de Software, incluindo o JAVA
-
-
+ 
 ## Installation
 
-## ✔️ Instalando o git 
+## ✔️ Instalando o git
 <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
 
 Abra o terminal e execute o comando a seguir para verificar se existe alguma versão já instalada
@@ -66,7 +65,7 @@ git config --list
 ```
 Instalação concluída com sucesso! 🏆 
 
-## ✔️ Instalando o SDKman 
+## ✔️ Instalando o SDKman
 
 Em alguns sistemas o curl já vem instalado, caso o seu SO não tenha vamos instalar o curl utilizando o gerenciador de pacotes snap com o seguinte comando:
 ```
@@ -96,6 +95,7 @@ Instalação concluída com sucesso! 🏆
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
 
 Uma das facilidades do SDKman é gerenciar as versões do JAVA na sua máquina. Para visualizar as versões disponiveís do Java execute:
+> Para sair da lista basta digitar a letra q 
 ```
 sdk ls java
 ```
