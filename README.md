@@ -118,4 +118,4 @@ Configuração JAVA concluída com sucesso! 🏆
 
 ------------
 
-Disponibilizado por Renata Leonel.
+Disponibilizado por Renata Leonel ✨
