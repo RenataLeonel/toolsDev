@@ -13,7 +13,6 @@
 
 - `Git`: Sistema de controle de versão open source
 - `SDKman`: Sistema de gestão de versões paralelas de vários Kits de Desenvolvimento de Software, incluindo o JAVA
-- `NVM (node version manager)`: Sistema de versão do node
  
 ## Installation
 
@@ -117,27 +116,7 @@ sdk uninstall java 11.0.12-open
 ```
 Configuração JAVA concluída com sucesso! 🏆 
 
-## ✔️ NVM (Node Version Manager)
-Podemmos instalar o nvm utilizando o curl ou wget. Neste passo a passo utilizaremos o curl.
-```
-sudo snap install curl
-```
-Em seguida xecute o scrip abaixo. Ele irá clonar o repositório do nvm em sua máquina. Caso queira verificar o que será instalado basta retirar o `| bash`e em seguida executar o ccomando completo.
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-```
-Para usá-lo vc precisa do arquivo abaixo:
-```
-source ~/.bashrc
-```
-Agora você pode verificar a lista de versões do node com o seguinte comando:
-```
-nvm ls-remote
-```
-Escolha uma versão do node e realize sua instalação utilizando o comando `nvm install` mais a versão desejada.
- ```
-nvm install v16.14.0
-```
+
 
 
 ------------
