@@ -118,6 +118,15 @@ sdk uninstall java 11.0.12-open
 Configuração JAVA concluída com sucesso! 🏆 
 
 ## ✔️ NVM (Node Version Manager)
+Podemmos instalar o nvm utilizando o curl ou wget. Neste passo a passo utilizaremos o curl.
+```
+sudo snap install curl
+```
+Execute o scrip abaixo. Ele irá clonar o repositório do nvm em sua máquina. Caso queira verificaro que será instalado basta retirar o `| bash`e em seguida executar 
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
 
 ------------
 
