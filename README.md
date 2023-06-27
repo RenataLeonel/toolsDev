@@ -122,9 +122,21 @@ Podemmos instalar o nvm utilizando o curl ou wget. Neste passo a passo utilizare
 ```
 sudo snap install curl
 ```
-Execute o scrip abaixo. Ele irá clonar o repositório do nvm em sua máquina. Caso queira verificaro que será instalado basta retirar o `| bash`e em seguida executar 
+Em seguida xecute o scrip abaixo. Ele irá clonar o repositório do nvm em sua máquina. Caso queira verificar o que será instalado basta retirar o `| bash`e em seguida executar o ccomando completo.
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+Para usá-lo vc precisa do arquivo abaixo:
+```
+source ~/.bashrc
+```
+Agora você pode verificar a lista de versões do node com o seguinte comando:
+```
+nvm ls-remote
+```
+Escolha uma versão do node e realize sua instalação utilizando o comando `nvm install` mais a versão desejada.
+ ```
+nvm install v16.14.0
 ```
 
 
