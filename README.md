@@ -13,10 +13,11 @@
 
 - `Git`: Sistema de controle de versão open source
 - `SDKman`: Sistema de gestão de versões paralelas de vários Kits de Desenvolvimento de Software, incluindo o JAVA
+- `NVM (node version manager)`: Sistema de versão do node
  
 ## Installation
 
-## ✔️ Instalando o git
+## ✔️ Git
 <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
 
 Abra o terminal e execute o comando a seguir para verificar se existe alguma versão já instalada
@@ -65,7 +66,7 @@ git config --list
 ```
 Instalação concluída com sucesso! 🏆 
 
-## ✔️ Instalando o SDKman
+## ✔️ SDKman
 
 Em alguns sistemas o curl já vem instalado, caso o seu SO não tenha vamos instalar o curl utilizando o gerenciador de pacotes snap com o seguinte comando:
 ```
@@ -115,6 +116,8 @@ Caso queira desinstalar uma versão, execute o ccomando `sdk uninstall java` com
 sdk uninstall java 11.0.12-open
 ```
 Configuração JAVA concluída com sucesso! 🏆 
+
+## ✔️ NVM (Node Version Manager)
 
 ------------
 
