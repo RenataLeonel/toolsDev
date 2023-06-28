@@ -13,6 +13,7 @@
 
 - `Git`: Sistema de controle de versão open source
 - `SDKman`: Sistema de gestão de versões paralelas de vários Kits de Desenvolvimento de Software, incluindo o JAVA
+- `Node`: Ambiente de execução do código JavaScript do lado servidor
  
 ## Installation
 
@@ -115,6 +116,25 @@ Caso queira desinstalar uma versão, execute o ccomando `sdk uninstall java` com
 sdk uninstall java 11.0.12-open
 ```
 Configuração JAVA concluída com sucesso! 🏆 
+
+## ✔️ Node
+
+Para intalar o node execute o script abaixo:
+```
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+```
+A númeração no script acima indica a versão, recomenda-se utilizar as versões LTS por serem mais estáveis.
+E, para finalizarmos executamos o comando abaixo:
+```
+sudo apt-get install -y nodejs
+```
+O `-Y` serve para evitar a pergunta se quer ou não continuar que surge durante a instalação.
+Para desistalar utilize:
+```
+sudo apt-get purge --auto-remove nodejs
+```
+Instalação concluída com sucesso! 🏆 
+
 
 
 
